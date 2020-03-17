@@ -3,7 +3,7 @@ html, body {
 }
 
 #clock {
-    background-color: steelblue;
+    /* background-color: steelblue; */
     color: #fff;
     font-family: 'Bungee Shade', cursive;
     font-size: 70px;
