@@ -7,8 +7,6 @@ function clocky() {
     m = d.getMinutes();
     s = d.getSeconds();
 
-
-    
     if (h <= 9) {
         h = "0" + h;
     }
@@ -28,6 +26,6 @@ function clocky() {
     document.body.style.background = colour;
     
     setTimeout(clocky, 1000);
-}
+};
 
 clocky();
